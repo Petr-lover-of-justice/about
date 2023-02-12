@@ -1,0 +1,16 @@
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  .footer_about {
+    color: #fff;
+    p {
+      width: 600px;
+    }
+  }
+  .footer_link {
+    img {
+      width: 30px;
+    }
+  }
+}
