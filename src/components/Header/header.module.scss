@@ -17,3 +17,10 @@ video {
     margin-right: 15px;
   }
 }
+@media screen and (max-width: 900px) {
+  .colle {
+    display: grid;
+    place-content: center;
+    padding-left: 25px;
+  }
+}

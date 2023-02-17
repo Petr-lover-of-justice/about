@@ -2,7 +2,7 @@ import React from "react";
 import s from "./technologies.module.scss";
 export const Technologies = () => {
   return (
-    <>
+    <div className={s.content}>
       <h2>Мой стек технологий</h2>
       <div className={s.technologies}>
         <div className={s.fronend}>
@@ -27,6 +27,6 @@ export const Technologies = () => {
           <p>Git , GitHub , GitLab<br /> Prettier, JSON</p>
         </div>
       </div>
-    </>
+    </div>
   );
 };

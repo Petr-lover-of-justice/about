@@ -9,3 +9,9 @@
   height: 250px;
   border-radius: 10px;
 }
+@media screen and (max-width: 900px) {
+  .portfolio__cart {
+    display: grid;
+    place-content: center;   
+  }
+}

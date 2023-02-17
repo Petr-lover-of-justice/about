@@ -1,16 +1,15 @@
 nav {
-  //position: relative=>header
   position: absolute;
   top: 0;
   left: 0;
-  width: 100vw;
+  width: 90vw;
   ul {
     display: flex;
     justify-content: center;
 
     margin-left: 100px;
 
-    animation-name:navBar;
+    animation-name: navBar;
     animation-duration: 1s;
     animation-delay: 2s;
     li {
@@ -31,11 +30,24 @@ nav {
 }
 
 @keyframes navBar {
-  0%{
+  0% {
     display: none;
-   
   }
- 100%{
+  100% {
+  }
+}
 
- }
+@media screen and (max-width: 900px) {
+  nav ul {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav {
+    ul {
+      display: flex;
+      justify-content: normal;
+    }
+  }
 }

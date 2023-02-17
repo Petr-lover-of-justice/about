@@ -9,7 +9,7 @@ function App() {
       <Header />
       <Technologies />
       <Portfolio />
-      <Footer />
+        <Footer />
     </div>
   );
 }

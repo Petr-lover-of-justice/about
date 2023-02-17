@@ -9,3 +9,11 @@
 .card {
   margin: 20px 30px;
 }
+@media screen and (max-width: 900px) {
+  .portfolio {
+  .portfolio__cart {
+    display: grid;
+    place-content: center;   
+  }
+}
+}

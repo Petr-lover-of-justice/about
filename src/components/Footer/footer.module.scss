@@ -14,3 +14,20 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: 900px) {
+  footer {
+    margin-top: 70px;
+    .footer_about {
+      color: #fff;
+      p {
+        width: 300px;
+      }
+    }
+    .footer_link {
+      img {
+        width: 30px;
+      }
+    }
+  }
+}

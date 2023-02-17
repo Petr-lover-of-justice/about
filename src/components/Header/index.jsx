@@ -3,6 +3,7 @@ import video from "..//../video/videoplayback.mp4";
 import { ButtonCyper } from "../ButtonCyper";
 import s from "./header.module.scss";
 import { NavBar } from "./NavBar";
+
 export const Header = () => {
   return (
     <header>

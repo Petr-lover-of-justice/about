@@ -8,7 +8,11 @@
 
 * {
   font-family: Cyber;
+  box-sizing: border-box;
 }
 body {
   background-color: rgb(27, 27, 27);
+  min-height: 100%;
+  width: 100%;
+  // overflow: hidden;
 }

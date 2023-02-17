@@ -1,6 +1,6 @@
 import React from "react";
 import s from "./Button.module.scss";
-export const ButtonCyper = ({ title,linkButton }) => {
+export const ButtonCyper = ({ title, linkButton }) => {
   return (
     <>
       <a href={linkButton}>
@@ -11,7 +11,7 @@ export const ButtonCyper = ({ title,linkButton }) => {
             Clicks_
           </span>
           <span aria-hidden className={s.cybr_btn__tag}>
-            futures
+            Наведи
           </span>
         </button>
       </a>
